@@ -1,0 +1,79 @@
+body {
+    background: var(--portfolio-background, #FCF9F2); 
+}
+nav {
+    width: 73%;
+    padding: 1%;
+}
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+#header-logo {
+    height: 180px;
+    width: auto;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.navbar {
+    width:73% ;
+    padding: 1%;
+}
+.logo {
+    width: 100px;
+    padding: 1%;
+    text-align: center;
+}
+
+.heading{
+    color: var(--portfolio-text-main, #231F20);
+    text-align: center;
+    font-family: Judson;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: auto;
+    background: var(--portfolio-background, #FCF9F2)
+}
+.btn{
+    color: var(--portfolio-text-main, #231F20);
+    text-align: center;
+    font-family: Judson;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: var(--portfolio-background, #FCF9F2);
+}
+.text{
+    text-align: center;
+    width: auto;
+    height: fit-content;
+    color: var(--portfolio-text-main, #231F20);
+    font-family: Judson;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;}
+.container{
+    border: 3px solid var(--portfolio-logo-main, #608058);
+    width: 100%;
+    height: fit-content;
+    padding: auto;
+   ;}
+.casestudy{
+    padding: 5%;
+    height: 400px;
+    width: auto;
+}
+.heroimg{
+    align-content: center;
+    padding: 5%;
+    height: 400px;
+    width: auto;
+}
