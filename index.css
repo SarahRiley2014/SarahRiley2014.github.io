@@ -15,6 +15,11 @@ img {
     width: auto;
 }
 
+li {
+    display: block;
+    text-align: center;
+}
+
 #header-logo {
     height: 180px;
     width: auto;
@@ -34,7 +39,7 @@ img {
     text-align: center;
 }
 
-.heading{
+h1 {
     color: var(--portfolio-text-main, #231F20);
     text-align: center;
     font-family: Judson;
@@ -45,7 +50,7 @@ img {
     width: auto;
     background: var(--portfolio-background, #FCF9F2)}
 
-.heading2{
+h2{
         color: var(--portfolio-text-main, #231F20);
         text-align: center;
         font-family: Judson;
@@ -56,7 +61,7 @@ img {
         width: auto;
         background: var(--portfolio-background, #FCF9F2)
 }
-.heading3{
+h3{
     color: var(--portfolio-text-main, #231F20);
     text-align: center;
     font-family: Judson;
