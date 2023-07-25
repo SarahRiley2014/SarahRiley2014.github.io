@@ -10,6 +10,11 @@ ul {
     margin-left: auto;
 }
 
+img {
+    height: 100px;
+    width: auto;
+}
+
 #header-logo {
     height: 180px;
     width: auto;
@@ -34,6 +39,28 @@ ul {
     text-align: center;
     font-family: Judson;
     font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: auto;
+    background: var(--portfolio-background, #FCF9F2)}
+
+.heading2{
+        color: var(--portfolio-text-main, #231F20);
+        text-align: center;
+        font-family: Judson;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: auto;
+        background: var(--portfolio-background, #FCF9F2)
+}
+.heading3{
+    color: var(--portfolio-text-main, #231F20);
+    text-align: center;
+    font-family: Judson;
+    font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -65,7 +92,8 @@ ul {
     width: 100%;
     height: fit-content;
     padding: auto;
-   ;}
+    display: flex;
+}
 .casestudy{
     padding: 5%;
     height: 400px;
@@ -77,3 +105,79 @@ ul {
     height: 400px;
     width: auto;
 }
+.skillimg{
+    padding: 5%;
+    height: auto;
+    width: 75%;
+}
+.flexContainer {
+    display: flex;
+    width: 90%;
+    padding: 5%;
+}
+
+.flex-item {
+    width: 25%;
+    margin: 5px;
+}
+.workGrid{
+    display: grid;
+    grid:
+        'image1 image2 image3'
+        'description1 description2 description3';
+    grid-auto-columns: 33%;
+    
+}
+.item1{
+    grid-area: image1;
+    margin: 5px;
+    text-align: center;
+}
+.item2 {
+    grid-area: description1;
+    margin: 5px;
+    text-align: center;
+}
+.item3 {
+    grid-area: image2;
+    margin: 5px;
+    text-align: center;
+}
+.item4 {
+    grid-area: description2;
+    margin: 5px;
+    text-align: center;
+}
+.item5 {
+    grid-area: image3;
+    margin: 5px;
+    text-align: center;
+}
+.item6 {
+    grid-area: description3;
+    margin: 5px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .flexContainer {
+        flex-direction: column;
+    }
+
+    .flex-item {
+        width: 100%;
+        padding: 5%;
+    }
+    .workGrid {
+        display: grid;
+        grid:
+            'image1'
+            'description1'
+            'image2'
+            'description2'
+            'image3' 
+            'description3';
+        grid-auto-columns: 100%;
+    }
+}
+    
