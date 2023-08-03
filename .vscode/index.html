@@ -9,29 +9,34 @@
         </head>
     <body>  
          <header class="navbar">
-            <div class="inline-block logo">
-                <img src="img/Logo.png" alt="Logo" id="header-logo">
-            </div>
-                <nav class="inline-block">
-                    <ul>
-                        <li class="btn inline-block">About</li>
-                        <li class="btn inline-block">My Work</li>
-                        <li class="btn inline-block">My Skills</li>
-                        <li class="btn inline-block">Contact</li>
-                    </ul>
+           
+                <nav>
+                    <div class="flex flexContainer">
+                        <a href="#About" class="btn">About</a>
+                        <a href="#My-Skills" class="btn">My Skills</a>
+                         <div class="logo">
+                            <img src="img/Logo.png" alt="Logo" id="header-logo">
+                        </div>
+                        <a href="#My-Work" class="btn">My Work</a>
+                        <a href="#Contact" class="btn">Contact</a>
+                    </div>
                 </nav>
         </header>
-        <section>
-            <div class="container" class="btn inline-block">
+        <br id="Home">
+       <section id="About">
+            <div class="flex flexContainer">
+             <div class="aboutContainer" id="about-heading">
                 <h1 class="heading">Sarah Riley</h1>
                 <p class="text">Where creativity meets functionality! As a UX/UI designer, I love to bring the human touch to design. My main priority will always be the user.  My role is to bridge the gap between user needs and cutting-edge design, creating intuitive interfaces that captivate and delight.
                 </p>
-                 </div>
+                </div>
                  <img src="img/heroimg.png" alt="profile picture" class="heroimg">
+            </div>
         </section>
-        <section>
+       
+        <section id="My-Skills">
             <h1>My Skills</h1>
-            <div class="container flexcontainer">
+            <div class="container flexContainer">
                 <div class="flex-item">
                     <img src="img/User Persona - Template.png" class="skillimg">
                     <h2 class="heading2">User Research</h2>
@@ -40,51 +45,39 @@
                 </div>
                 <div class="flex-item">
                     <img src="img/IES Homepage.png" class="skillimg">
-                    <h2 class="heading2">User Interface Design</h2>
+                    <h2>User Interface Design</h2>
                     <p class="text">Using IA, color schemes, typography and style guides to create beautiful, cohesive designs that also betters useability.</p>
 
                 </div>
                 <div class="flex-item">
                     <img src="img/PantryPalLogo.png" class="skillimg">
-                    <h2 class="heading2">Logo Design.</h2>
+                    <h2>Logo Design</h2>
                     <p class="text">Creating simple, but memorable designs to bring the companies values and goals to life.</p>
 
                 </div>
                 <div class="flex-item">
                     <img src="img/Screenshot 2023-07-11 181341.png" class="skillimg">
-                    <h2 class="heading2">Web Developemnt</h2>
+                    <h2>Web Developemnt</h2>
                     <p class="text">Bringing research and design into reality; with Html, CSS and JavaScript</p>
 
                 </div>
             </div>
         </section>
-        <section class="myWork">
+        
+        <section id="My-Work">
             <h1>My work</h1>
-            <div class="workGrid">
-                <div class="item1"><img src="img/Wonderbloom.png" alt=""></div>
-                <div class="item2">
-                    <h3>Wonderbloom</h3>
-                    <p>Wonderbloom Website redesign</p>
-                    <button>view</button>
-                </div> 
-                <div class="item3"><img src="img/IES.png" alt=""></div>    
-                <div class="item4"> 
-                    <h3 class="heading3">Institute of Education Sciences</h3>
-                    <p>Institute of Education Sciences Website redesign</p>
-                    <button>view</button>
-                </div>
-                <div class="item5"><img src="img/PantryPal.png" alt=""></div>
-                <div class="item6">
-                    <h3>Pantry Pal</h3>
-                    <p>Pantry Pal, an original app design</p>
-                    <button>view</button>
-                </div>                
+            <div class="work flexContainer">
+                <img src="img/Wonderbloom.png" alt="Wonderbloom" class="work-img">
+               
+                <img src="img/IES.png" alt="IES" class="work-img">
+               
+                <img src="img/PantryPal.png" alt="PantryPal" class="work-img">
             </div>
-            <h2>View all projects</h3>
         </section>
-        <footer>
+        
+        <footer id="Contact">
             <h1>Contact</h1>
-            <div class="container">
+            <div class="footerContainer">
                 <ul class="text">
                     <li class="inline-block">Email: sarahlm1995@gmail.com</li>
                     <li>Phone: 385-277-8296</li>
@@ -92,10 +85,17 @@
                     <li><a href="www.linkedin.com/in/sarah-lynne-riley-72011b268">Linked in</a></li>
                 </ul>
             </div>
-        </footer>         
+        </footer>
+        <a href="#" class="back-to-top"><img src="img/Iconsax.png"></a>
+        
+            
                
 
            
-        
+       
     </body>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/index.js"></script>
+    
     </html>
