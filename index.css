@@ -10,20 +10,13 @@ nav {
     
 }
 
-/* ul {
-    width: 50%;
-} */
+ 
 
 img {
     height: 25%;
     width: auto;
 }
 
-li {
-    display: block;
-    text-align: center;
-    text-decoration:none ;
-}
 
 h1 {
     color: var(--portfolio-text-main, #231F20);
@@ -61,6 +54,15 @@ h3 {
     background: var(--portfolio-background, #FCF9F2)
 }
 
+hr {
+    background-color: #608058;
+    height: 2px;
+    border:none;
+    width: 80%;
+}
+
+
+
 
 a:link {
   color: #231F20;
@@ -86,12 +88,11 @@ a:active {
   text-decoration: none;
 }
 
-
-.flex {
-    display:flex;
-    justify-content:space-around;
+.contactLink{
+    height:auto;
+    width: 50px;
+    display: inline;
 }
-
 .navbar {
     width:98%;
     padding: 1%;
@@ -133,7 +134,7 @@ a:active {
     padding: 60px;
 }
 
-.text{
+p{
     text-align: center;
     width: auto;
     height: fit-content;
@@ -145,17 +146,19 @@ a:active {
     line-height: normal;
     padding-left: 10px;
     padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration:none ;
 
 }
 
 .footerContainer {
-    border: 3px solid var(--portfolio-logo-main, #608058);
-    width: 98%;
-    height: fit-content;
-    padding: 20px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    border: 3px solid var(--portfolio-logo-main, #608058);
+   
+   
 }
 
 .aboutContainer {
@@ -172,7 +175,6 @@ a:active {
     border: 3px solid var(--portfolio-logo-main, #608058);
     width: fit-content;
     height: fit-content;
-    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -194,59 +196,22 @@ a:active {
 
 .flexContainer {
     display: flex;
-    width: 90%;
-    padding: 5%;
-    justify-content: center;
-    align-items: center;
+    justify-content:center ;
+    
+
 }
 
 .flex-item {
-    width: 25%;
+    width: 20%;
     margin: 5px;
 }
 
 .work{
     display: flex;
     justify-content: space-around;
-   
-    
 }
 
-.item1{
-    grid-area: image1;
-    margin: 5px;
-    text-align: center;
-}
 
-.item2 {
-    grid-area: description1;
-    margin: 5px;
-    text-align: center;
-}
-
-.item3 {
-    grid-area: image2;
-    margin: 5px;
-    text-align: center;
-}
-
-.item4 {
-    grid-area: description2;
-    margin: 5px;
-    text-align: center;
-}
-
-.item5 {
-    grid-area: image3;
-    margin: 5px;
-    text-align: center;
-}
-
-.item6 {
-    grid-area: description3;
-    margin: 5px;
-    text-align: center;
-}
 
 .hover {
     text-shadow: 2px 2px 5px #231F20;
@@ -259,15 +224,22 @@ a:active {
     }
 
     .flex-item {
-        width: 100%;
+        width: 80%;
         padding: 5%;
     }
 
-    .text{ font-size: 20px;}    
+    .text{ font-size: 20px;}
+    
+    .work-img {
+        width: 50%;
+        height: auto;
+        padding: 20px 20px 60px 60px;
+       }
     
 }
 
 .work-img {
+    width:auto;
     height: 650px;
 }
 
