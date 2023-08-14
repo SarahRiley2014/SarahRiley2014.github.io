@@ -156,7 +156,7 @@ p{
 .footerContainer {
     display: flex;
     justify-content: center;
-    border: 3px solid var(--portfolio-logo-main, #608058);
+    
    
    
 }
@@ -172,7 +172,7 @@ p{
 }
 
 .container {
-    border: 3px solid var(--portfolio-logo-main, #608058);
+    
     width: fit-content;
     height: fit-content;
     display: flex;
@@ -190,8 +190,7 @@ p{
 
 .skillimg{
     padding: 5%;
-    height: auto;
-    width: 75%;
+    height:auto;
 }
 
 .flexContainer {
